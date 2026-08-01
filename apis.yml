@@ -1,7 +1,30 @@
 aid: simplifeye
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/simplifeye.png
 name: Simplifeye
-description: Simplifeye is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Simplifeye is a dental practice management platform that helps practices grow
+  and streamline front-office operations through integrated payments, online
+  scheduling, live webchat, and patient-engagement campaigns. Its HIPAA-compliant
+  payments product supports in-office transactions, invoicing, and customizable
+  payment plans; its 24/7 real-time online scheduler lets patients self-book
+  appointments; and its live webchat is staffed by real people who answer patient
+  questions and qualify leads outside business hours. Simplifeye was acquired by
+  Vyne Dental and integrates with the Vyne Trellis billing platform for claims,
+  eligibility, and revenue acceleration. Simplifeye operates a private,
+  authenticated backend (api.simplifeye.co) that powers its dashboard and
+  patient-facing widgets, but publishes no public developer program, OpenAPI
+  definition, SDKs, or API documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/simplifeye/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Dental
+- Healthcare
+- Payments
+- Online Scheduling
+- Practice Management
+- Patient Engagement
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +52,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.simplifeye.co
+  url: https://vynedental.com/simplifeye
+- type: Login
+  url: https://dashboard.simplifeye.co/login
+- type: SignUp
+  url: https://vynedental.com/simplifeye-form/
+- type: PrivacyPolicy
+  url: https://vynedental.com/privacy/
+- type: TermsOfService
+  url: https://vynedental.com/terms/
+- type: DomainSecurity
+  url: security/simplifeye-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
