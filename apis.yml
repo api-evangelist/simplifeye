@@ -67,7 +67,8 @@ common:
 - url: https://vynedental.com/feed/
   type: BlogRSS
 - type: Website
-  url: https://vynedental.com/simplifeye
+  url: https://simplifeye.co
+  description: Simplifeye's own domain; it redirects to its product page on vynedental.com (a Vyne Dental product). vynedental.com belongs to the vynedental provider.
 - type: Login
   url: https://dashboard.simplifeye.co/login
 - type: SignUp
